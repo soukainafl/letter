@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="lettr.css">
+
+</head>
+<body>
+	  <div>
+	  
+	  	<input id="pt1" type="text" placeholder="Entrez La Phrase">
+	  	<br><br>
+	  	<input id="pt2" type="text" placeholder="Entrez La lettre">
+	  	<br><br><br>
+	  	<button id="compt" onclick="compteur();">Calcule</button>
+        
+	  	 <p id="res">[ ....... ]</p> 
+         
+
+	  </div>
+	  <script type="text/javascript">
+	  	function compteur(){
+         var phrase=document.getElementById('pt1').value;
+         var lettre=document.getElementById('pt2').value;
+         var nbr=0; 
+         for (var i = 0; i <phrase.length; i++) {
+         	if (phrase.charAt(i)==lettre) {
+         		nbr++;
+         	}
+         }
+            /* les deux methode */
+         document.getElementById('res').innerHTML=nbr; 
+            alert(nbr);
+	  	}
+	  </script>
+
+</body>

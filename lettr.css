@@ -1,0 +1,19 @@
+div{
+    border: 2px solid black;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+  /*  background-color: #7C746F; */
+      background-image: linear-gradient(#403075, #882D61);
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-left: 300px;
+    
+}
+#pt1{ margin-left: 200px;}
+#pt2{ margin-left: 200px;}
+#compt{ margin-left: 200px;
+        padding: 20px 60px;   
+          border-radius: 5px;  
+font-style: italic;}
+#res{ margin-left: 200px;}
